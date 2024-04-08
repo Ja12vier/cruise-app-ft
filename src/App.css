@@ -1,0 +1,1541 @@
+
+:root{
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/*NAVBAR*/
+.navbar{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+
+  
+}
+
+.navbar .nav.section a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: rgb(71, 71, 146);
+
+}
+
+
+.container-section-movil{
+  opacity: 0;
+  visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #044e82;
+    top: 0;
+    right: 0;
+    height: 30rem;
+    width: 25rem;
+    transition: all 0.5s;
+    box-shadow: 0 0 0 100vh rgb(128, 128, 128, 0.5);
+}
+.link-movil{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-end;
+  margin: 0 30px;
+}
+.icono-botton-nav .button{
+  display: none;
+  border: 0;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+
+}
+.icono-botton-nav a{
+ display: none;
+
+}
+.container-section-movil .cerrar{
+  display: flex;
+  justify-content: end;
+  margin: 20px 0;
+  width: 100%;
+
+}
+.container-section-movil .cerrar .button-movil{
+  border: 0;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+
+
+}
+
+.container-section-movil .oferta,
+.container-section-movil .viajes-reservado{
+border: 0;
+background-color: white;
+padding: 0;
+margin: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(0, 0, 255);
+margin: 10px;
+}
+
+.container-section-movil  a{
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  margin: 10px;
+
+}
+
+
+.navbar .nav.section a:hover{
+  text-decoration: underline;
+  color: rgb(151, 147, 147);
+}
+
+.navbar .nav.login a{
+  color: rgb(71, 71, 146);;
+  text-decoration: none;
+
+}
+.navbar .nav.login a:hover{
+  text-decoration: underline;
+  color: rgb(151, 147, 147);
+}
+
+
+.contacto-logo .letra1{
+  color: rgb(254, 201, 27);
+  font-size: 24px;
+}
+.contacto-logo .letra2{
+  font-size: 23px;
+  color: #1269a2;
+}
+.contacto-logo .letra3{
+color: #1269a2;
+}
+.contacto-logo a{
+
+text-decoration: none;
+}
+.barra.promo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 10px 0;
+  background-color: #1269a2;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+
+
+}
+
+.barra.promo .logo-section1, .logo-section2,.logo-section3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  
+}
+.barra.promo .logo-section1 .icono img, .barra.promo .logo-section2 .icono img, .barra.promo .logo-section3 .icono img{
+width: 20px;
+margin: 5px;
+
+}
+
+.linea{
+  height: 30px;
+  width: 2px;
+  background-color: #044e82;
+  margin: 0 10px;
+  transform: rotate(20deg);
+}
+
+/*imagen de fondo*/
+
+.imagen.crucero {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+.imagen.crucero .img img{
+  width: 100%;
+  
+
+}
+
+/*LOADER*/
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed ;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+
+  
+}
+
+.isloader{
+background-color: rgb(128, 128, 128, 0.1);
+padding: 200px;
+border-radius: 10px;
+
+}
+
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid white;
+  border-color: rgb(255, 255, 255) transparent rgb(255, 243, 16) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*home bienbenido*/
+
+.home .bienbenido{
+  text-align: center;
+}
+
+.home .bienbenido .p1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 20px;
+
+}
+
+.home .bienbenido .p1{
+
+ margin: 0;
+  
+}
+
+.oferta .p3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+
+/*contenedor oferta*/
+
+.contenedor.oferta{
+  margin: 5px 20px;
+  padding: 5px 5px;
+
+}
+
+/*categorie link*/
+.categorie.link{
+  padding: 0 0 0;
+}
+.categorie.link span {
+
+padding: 3px ;
+
+}
+.mi-enlaces{
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  transition: border-bottom 0.3s ease;
+  color: rgb(0, 0 ,0 , 0.8);
+  padding-bottom: 8px;
+}
+
+
+.mi-enlaces-1{
+  padding: 9px 20px;
+  margin: 0 15px;
+
+}
+
+/*cart nueva oferta*/
+
+.card-container-oferta{
+  width: 100%;
+  height: 350px;
+  margin: 10px 0;
+}
+
+.card-oferta-carousel{
+  display: flex;
+}
+
+.carts-oferta{
+  display: inline-flex;
+}
+
+.carts-oferta .card{
+   
+  flex: 0 0 260px;
+  margin: 5px;
+}
+
+.container-cartd .cart.img{
+  width: 100%;
+  height: 200px;
+  contain: content;
+  
+}
+
+.cart.img p{
+ padding: 10px;
+ color: rgb(15, 15, 44);
+ position: absolute;
+ top: 0;
+
+ background-color: rgba(244, 243, 243, 0.9);
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.container-cartd .cart.img img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+
+.stay .title{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin: 10px 0 0 0;
+
+
+}
+.stay h5{
+  color: black;
+
+}
+.dia-duracion{
+ 
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+.dia-duracion span{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  
+ 
+}
+.dia-duracion .price{
+  font-size: 22px;
+
+}
+
+/*categoria exclusiva*/
+
+.card-imagen-categoria{
+  width: 100%;
+  height: 260px;
+}
+.card-container{
+display: flex;
+}
+
+.categories.exclusiva{
+  margin: 50px 0;
+  width: 100%;
+}
+
+.categories.exclusiva .title h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 40px;
+  margin: 25px 0;
+}
+
+.contane-cart-exclusiva{
+display: inline-flex;
+  
+}
+
+.contane-cart-exclusiva .categorie-cart{
+  flex: 0 0 210px;
+  margin: 10px;
+  contain: content;
+  height: 210px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  
+}
+
+.contane-cart-exclusiva .categorie-cart:hover{
+  cursor: pointer;
+  transform:  scale(1.1);
+}
+
+.contane-cart-exclusiva .categorie-cart img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.contane-cart-exclusiva .categorie-cart .img-title{
+  position: absolute;
+  
+width: 100%;
+height: 70px;
+ bottom: 0;
+ color: white;
+ background-color: rgb(213, 213, 213, 0.3);
+  z-index: 1;
+}
+
+.contane-cart-exclusiva .categorie-cart .img-title h3{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/*compañia-crucero*/
+.compañia-crucero{
+  width:100%;
+  margin: 0 0 20px 0;
+
+  
+}
+.compañia-crucero h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 40px;
+  
+
+}
+
+.compañia-crucero .container.image{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  contain: content;
+  flex-wrap: wrap;
+}
+
+.compañia-crucero .container.image .img1{
+  width: 200px;
+  height: 90px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  contain: content;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgba(0, 0, 0, 0.1);
+
+}
+.compañia-crucero .container.image .img1 img{
+  max-width: 210px;
+  margin: 5px;
+}
+
+
+/*Nuestro equipo*/
+
+.sobre-nosotro{
+  width: 100%;
+  margin: 50px 0 70px 0;
+  padding: 0;
+}
+
+.sobre-nosotro h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 40px;
+  margin: 20px 0;
+  
+}
+
+.sobre-nosotro .containe-home-descripcion {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+
+}
+
+
+.containe-home-descripcion .img{
+  width: 900px;
+  height: 350px;
+  contain: content;
+}
+
+.containe h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.containe-home-descripcion .img img{
+  width: 100%;
+  height: 100%;
+  contain: content;
+  margin: 0;
+}
+.containe-home-descripcion .container-descripcion{
+  width: 68%;
+}
+.containe-home-descripcion .container-descripcion p{
+ font-size: 18px;
+
+
+}
+
+/*accodion home*/
+
+.accordion-item{
+  margin: 30px 0;
+}
+
+.accordion-body{
+  background-color: rgb(213, 213, 213, 0.3);
+}
+
+.container.accordion{
+margin: 0;
+padding: 0;
+
+
+}
+
+/*footer-home y componenet*/
+.footer-home{
+  width: 100%;
+  background-color: rgba(16,26,65);
+  color: white;
+}
+
+.container.footer{
+  max-width: 80%;
+}
+
+.container.footer-section1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px ;
+  margin: 30px 0;
+  flex-wrap: wrap;
+
+}
+
+.container.footer-section1 .input{
+  width: 500px;
+  height: 70px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.container.footer-section1 .input form{
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  display: flex;
+  
+  align-items: center;
+  padding: 0 10px;
+}
+.container.footer-section1 .input form .form{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form input{
+  border: 0 ;
+ 
+}
+
+.form button{
+  background-color: rgb(254, 213, 80);
+  color:  rgba(255,255,255);
+  border: 1px solid rgba(252,211,77);
+  height: 55px;
+  width: 120px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/*container contacto*/
+
+.container.contacto{
+padding: 0;
+margin: 0;
+max-width: 230px;
+}
+.container-footer-section2{
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+
+.contacto-logo{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ width: 220px;
+
+}
+.contacto-logo img{
+width: 30px;
+}
+
+.contacto-logo span{
+  font-size: 20px;
+  font-weight: bold;
+  font-family:serif;
+
+}
+.telefono, .email, .ubicacion{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+
+}
+.icono-telefono, .email-icono, .ubicacion-icono{
+background-color:rgb(254, 213, 80);
+border-radius: 50%;
+
+}
+
+.icono-telefono img, .email-icono img, .ubicacion-icono img{
+  width: 24px;
+  background-color:rgb(254, 213, 80);
+  margin: 5px;
+
+}
+
+.localidad{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+
+}
+
+.container.destino{
+ display: flex;
+ flex-direction: column;
+ max-width: 210px;
+}
+
+.container.destino span{
+  margin: 5px 0;
+}
+
+
+.footer-final{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.redesociales{
+  display: flex;
+
+}
+.redesociales a img{
+
+  width: 24px;
+  background-color:white;
+  margin: 5px;
+}
+
+.redesociales .rede{
+  background-color:white;
+border-radius: 50%;
+margin: 5px;
+}
+
+
+/*Oferta*/
+
+
+.oferta .oferta-title{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(128, 128, 128, 0.2);
+  margin-top: 20px;
+}
+.card-img-descrpcin{
+  display: flex;
+}
+
+.oferta-card.container{
+width:1000px;
+margin: 0;
+
+
+}
+.oferta img{
+  width: 100%;
+}
+.oferta .row{
+ 
+  padding: 30px;
+  background-color: rgb(128, 128, 128, 0.2);
+ 
+}
+
+.oferta .col{
+
+  margin: 10px;
+  padding: 10px;
+  contain: content;
+  
+}
+
+ .oferta-card{
+  width: 18rem;
+box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.3);
+}
+
+.estadia{
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.card-butto{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.card-butto span{
+display: block;
+}
+
+.card-butto .price{
+  color: rgb(117, 216, 246);
+  font-weight:bold;
+  font-size: 30px;
+}
+
+
+.card-butto .button:hover{
+background-color:rgb(254, 213, 80) ;
+color: #1269a2;
+}
+.oferta-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  background-color: #1269a2;
+  height: 200px;
+
+
+}
+
+/*offCanbas*/
+
+.buscarCanva{
+  border: 1px solid black;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.constine.Canva{
+  display: flex;
+  justify-content: center;
+  align-content:center;
+ flex-direction: column;
+
+}
+
+.constine.Canva button{
+padding: 7px;
+background-color: rgb(254, 213, 80) ;
+color: white;
+font-size: 20px;
+font-weight: bolder;
+}
+
+/*card-buscar*/
+
+.container-card-buscar{
+  margin: 10px;
+  padding:0 100px;
+}
+.buscar-title h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+ }
+
+.cards-buscar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(188, 186, 186);
+  background-color: white;
+ padding-right: 10px;
+
+
+}
+
+.card-descripcion h2{
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva;
+  
+ }
+
+.cards-buscar .img{
+  width: 350px;
+  height: 160px;
+  margin: 0  5px 0 0;
+}
+
+.cards-buscar img{
+  width: 100%;
+  height: 100%;
+}
+
+.card-img-descripcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buscar{
+  background-color: rgba(211, 206, 206, 0.2);
+  
+}
+
+.price h2{
+  color: #228fd8;
+  font-weight: bold;
+}
+
+.buscar-button{
+  width: 100%;
+  background-color: white;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.buscar-button button{
+  background-color: #89afc8;
+  margin: 15px 15px;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px 1.5px;
+  height: 65px;
+  transition: all 0.3s;
+}
+
+.buscar-button button:hover{
+  background-color: rgb(188, 186, 186);
+  color: black;
+  border: 7px solid #479ed9;
+  
+}
+
+/*login*/
+
+.container-login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: rgb(36, 38, 52, 0.8);
+  padding: 2rem;
+
+
+
+}
+
+.container-login .form-login{
+
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px  rgba(156, 156, 156, 0.3);
+
+}
+
+.container-login .button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+
+}
+
+.container-login input,.container-login button{
+  width: 230px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container-login input{
+  margin: 10px 0;
+}
+
+.container-login .button button{
+  background-color: #b2cada;
+}
+
+.container-login .title{
+  width: 100%;
+  color: #b2cada;
+  padding:  0 40px;
+}
+
+.errorLogin{
+max-width: 15rem;
+}
+
+/*Detail*/
+
+.detail-section{
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  gap: 10px;
+
+
+}
+
+
+.detail-section .img{
+width: 1000px;
+height: 300px;
+}
+.detail-section .img img{
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.descryption-beneficios{
+ width: 100%;
+}
+.detail-section .container-price{
+  display: flex;
+justify-content: end;
+width: 100%;
+
+}
+
+.detail-section .container-price .detail-price{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.detail-section .descripcion{
+  width: 100%;
+}
+ .descryption-beneficios p{ 
+width: 500px;
+  
+}
+.detail-section h2,h3, h4, h5{
+font-family:'Times New Roman', Times, serif;
+
+}
+.detail-section h3{
+  color: rgb(223, 27, 27) ;
+  }
+  
+.detail-section span,p {
+font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+
+.detail-price p{
+  background-color:rgb(254, 213, 80) ;
+  padding: 8px 40px;
+  border-radius: 2px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.detail-price p ,.detail-price.button{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.detail-price h5{
+  color: #044e82;
+}
+
+.detail-price.button{
+  background-color: rgb(218, 46, 46);
+  color: white;
+  height: 3rem;
+
+}
+.detail-price.button:hover{
+  background-color:  #044e82;;
+
+
+}
+
+.input-quantity{
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 20px;
+  align-items: center;
+  border: 4px solid rgb(128, 128, 128, 0.1);
+   max-width: 150px;
+   padding: 5px;
+   box-shadow: 0 1px 1px  1px rgb(118, 116, 116);
+
+}
+.input-quantity span{
+color:  #044e82;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+.input-quantity input{
+  width: 70px;
+  border: 2px solid   #044e82;
+
+}
+
+
+
+/*cartdOffCanva*/
+
+.cartd-offCanva{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(207, 207, 207);
+  margin: 10px 0;
+
+}
+
+.cartd-offCanva div{
+margin:  0 5px;
+
+}
+
+.cartd-offCanva span{
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cartd-offCanva button{
+  margin: 5px 0;
+  padding: 0;
+  width: 70px;
+    background-color: #044e82;
+  color: whitesmoke;
+  border-radius: 5px;
+
+}
+
+.cartd-offCanva .button{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 5px;
+
+}
+
+ .viaje-carrito .totalPrice{
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: end;
+ } 
+
+ .viaje-carrito .price-compra{
+ border: 3px solid rgb(254, 213, 80) ;
+ padding: 8px;
+ border-radius: 5px;
+ }
+
+.button-reserva{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.button-reserva button{
+  background-color: #044e82;
+  color: white;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 3rem;
+
+  
+}
+
+.button-reserva button:hover{
+  background-color: white;
+  border: 3px solid rgb(254, 213, 80);
+  border-radius: 5px;
+  color: #044e82;
+  font-weight: bold;
+}
+
+.viaje-carrito h2{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.viaje-carrito .cantidadViaje{
+  border: 2px solid rgb(254, 213, 80);
+  padding: 7px;
+  margin: 0 10px;
+}
+.form-editar-container{
+opacity: 0;
+visibility: hidden;
+transition: opacity 1s ease, visibility 1s ease;
+}
+.form-editar{
+  opacity: 1;
+  visibility: visible;
+}
+.form-editar-container .editar-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border: 3px solid rgb(254, 213, 80);
+}
+
+.editar-container .editar-input label{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
+.editar-container .editar-input input{
+  width: 3rem;
+} 
+
+.editar-container .button  button{
+  background-color: rgb(9, 93, 153);
+  color: white;
+  border-radius: 5px;
+}
+
+
+/*viaje-completado*/
+.container-viaje-completado{
+  background-color: rgb(238, 238, 238, 0.4);
+
+}
+
+.container-purchase ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 15px;
+  width: 100%;
+  list-style: none;
+
+}
+
+
+
+.purchase-viaje  .button{
+display: flex;
+justify-content: center;
+width: 100%;
+margin: 5px 0;
+}
+
+.purchase-viaje  .button button{
+  background-color: #044e82;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 3rem;
+
+
+  
+}
+
+/*Registro-Login*/
+
+.registro-login .registro-login-form{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  border: 2px solid rgb(115, 113, 113);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.registro-login-form .button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.registro-login-form label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.registro-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.icono-registrar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+.icono-registrar{
+  font-size: 4rem;
+}
+
+
+/*sliderDraggable*/
+
+
+@media screen and (max-width:986px){
+  .buscar-title h1{
+    font-size: 25px;
+ 
+   }
+  .navbar .nav.section a{
+    padding: 0 10px;
+  
+  }
+  .card-descripcion h2{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+   }
+   .card-img-descripcion .img{
+    width: 18rem;
+   }
+   .container-card-buscar{
+    margin: 8px;
+    padding:0 60px;
+  }
+  .detail-section .img{
+
+    max-width: 60%;
+    height: 300px;
+
+   }
+  
+
+}
+
+@media screen and (max-width:928px){
+  .navbar .nav.section a{
+    padding: 0 5px;
+
+ 
+  }
+  .card-descripcion h2{
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva;
+  }
+  .card-img-descripcion .img{
+    width: 16rem;
+   }
+
+   .container-card-buscar{
+    margin: 5px;
+    padding:0 30px;
+  }
+  .card-container-oferta{
+    overflow-y: auto;
+  }
+  .card-imagen-categoria{
+    overflow-y: auto;
+  }
+}
+
+
+@media screen and (max-width:915px){
+    .icono-botton-nav .button{
+    display: block;
+  }
+  .nav.section,  .nav.login{
+   display: none;
+  }
+  .icono-botton-nav a{
+    display: block;
+   }
+   
+  .nav-movil{
+  opacity: 1;
+  visibility: visible;
+  
+
+  }
+
+  .card-descripcion h2{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+   }
+  
+   .card-img-descripcion .img{
+    width: 14rem;
+   }
+
+   .container-card-buscar{
+    margin: 4px;
+    padding:0 10px;
+  }
+
+  .detail-section{
+ 
+    padding: 10px;
+    margin: 0px;
+    gap: 10px;
+    flex-direction: column;
+  
+    
+  }
+
+  .detail-section .img{
+
+     max-width: 60%;
+     height: 200px;
+    }
+  
+
+   
+}
+
+
+@media screen and (max-width:700px){
+  .footer-final{
+  justify-content: center;
+  flex-direction: column;
+  }
+
+  .containe-home-descripcion{
+    flex-direction: column;
+  }
+
+
+.containe-home-descripcion .img{
+  width: 500px;
+ 
+  padding: 10px 30px;
+}
+
+.containe-home-descripcion .container-descripcion{
+  width: 100%;
+}
+.compañia-crucero .container.image{
+  height: 200px;
+  overflow-y: auto;
+}
+.barra.promo .logo-section1, .logo-section2,.logo-section3{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.detail-section .img{
+
+   max-width: 70%;
+
+  }
+
+}
+
+@media screen and (max-width:520px){
+  .buscar-title h1{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+ 
+   }
+  
+
+  .card-descripcion h2{
+    font-family: 'Segoe UI', Tahoma, Geneva;
+   }
+  
+   .card-img-descripcion .img{
+    width: 12rem;
+   }
+
+   .container-card-buscar{
+    margin: 2px;
+    padding:0 8px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva;
+  }
+
+  .oferta-footer p, .oferta-footer div{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .price h2{
+    
+    font-size: 20px;
+  }
+  .categorie.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+  }
+
+  .containe-home-descripcion .img{
+    width: 100%;
+   height: 170px;
+    padding: 10px 30px;
+  }
+  .container.footer-section1 .input{
+    width: 260px;
+ 
+  }
+
+  .form button{
+   
+    height: 55px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  .container.footer-section1 .input form{
+
+     flex-direction: column;
+    align-items: center;
+  
+
+  }
+  .container.footer-section1 .input input{
+    width: 130px;
+
+  }
+  .container.footer-section1 .input {
+    height: 100%;
+    padding: 3px;
+  }
+  
+  .barra.promo .logo-section1, .logo-section2,.logo-section3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .oferta-card{
+    width: 16rem;
+  }
+
+  .cards-buscar{
+    flex-direction: column;
+   align-items: flex-start;
+   padding-right: 0px;
+   padding: 10px;
+   width: max-content;
+  }
+  .container-card-buscar{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-img-descripcion,  .card-img-descripcion .img {
+    width: 300px;
+  }
+
+  .detail-section .img{
+
+     max-width: 100%;
+  
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+
+  .container.footer-section1 .input input{
+    width: 90px;
+    margin: 0;
+
+  }
+  .container.footer-section1 .input {
+    height: 100%;
+    padding: 3px;
+    margin: 0;
+  }
+  
+  .oferta-footer{
+  flex-wrap: wrap;
+  }
+  
+  
+  
+}
