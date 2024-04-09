@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import { useSelector } from 'react-redux';
-import { setAlertSlice } from '../store/slice/alert.slice';
+import { setAlertSlice } from '../store/slices/alert.slice';
 import { useDispatch } from 'react-redux';
 
 

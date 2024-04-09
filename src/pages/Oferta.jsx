@@ -1,13 +1,12 @@
 
 import { useSelector, useDispatch } from "react-redux"
-import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import OfertaImg from '../img/ofertas-cruceros.avif'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useEffect } from "react";
-import { getProductsThunk } from "../store/slice/products.slice";
+import { getProductsThunk } from "../store/slices/products.slice";
 import { useNavigate } from "react-router-dom";
 
 const Oferta=()=>{

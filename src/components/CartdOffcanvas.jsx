@@ -1,11 +1,11 @@
 import { useSelector, useDispatch} from "react-redux";
 import axios from "axios";
-import { deleteCartdproducThunk } from "../store/slice/cartd.slice";
-import { setLoader } from "../store/slice/isloader.slice";
+import { deleteCartdproducThunk } from "../store/slices/cartd.slice";
+import { setLoader } from "../store/slices/isloader.slice";
 import getConfig from "../utils/getConfig";
-import { setCartd } from "../store/slice/cartd.slice";
+import { setCartd } from "../store/slices/cartd.slice";
 import { useEffect, useState } from "react";
-import { getCartdproducThunk } from "../store/slice/cartd.slice";
+import { getCartdproducThunk } from "../store/slices/cartd.slice";
 
 const CartdOffcanvas=()=>{
 

@@ -12,5 +12,5 @@ export const isLoaderSlice=createSlice({
 })
 
 
-export const {setLoader} = isLoaderSlice.actions
-export default isLoaderSlice.reducer
+export const {setLoader} = isLoaderSlice.actions;
+export default isLoaderSlice.reducer;

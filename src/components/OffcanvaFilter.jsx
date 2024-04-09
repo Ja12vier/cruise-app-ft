@@ -3,10 +3,10 @@
 import { useDispatch, useSelector } from "react-redux"
 import {useForm} from 'react-hook-form'
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { setPropiedad } from "../store/slice/offCanbas.slice";
+import { setPropiedad } from "../store/slices/offcanbas.slice";
 import { useState, useEffect } from 'react';
 import CartdOffcanvas from "./CartdOffcanvas";
-import { getCartdproducThunk } from "../store/slice/cartd.slice";
+import { getCartdproducThunk } from "../store/slices/cartd.slice";
 
 
 

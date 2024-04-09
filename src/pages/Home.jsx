@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { getCategoriesThunk } from "../store/slice/categories.slice"
-import { getProductsThunk } from "../store/slice/products.slice"
+import { getCategoriesThunk } from "../store/slices/categories.slice"
+import { getProductsThunk } from "../store/slices/products.slice"
 import { Link } from "react-router-dom"
 import AccoDion from "../components/Accordion"
 import Footer from "../components/Footer"

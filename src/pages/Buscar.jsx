@@ -2,9 +2,9 @@ import OffcanvaFilter from "../components/OffcanvaFilter"
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import { useDispatch, useSelector } from "react-redux"
-import { setBuscar } from "../store/slice/buscar.slice";
-import { setLoader } from "../store/slice/isloader.slice";
-import { getProductsThunk } from "../store/slice/products.slice";
+import { setBuscar } from "../store/slices/buscar.slice";
+import { setLoader } from "../store/slices/isloader.slice";
+import { getProductsThunk } from "../store/slices/products.slice";
 import axios from "axios";
 import { Link } from "react-router-dom";
 

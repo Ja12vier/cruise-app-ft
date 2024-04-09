@@ -1,13 +1,13 @@
 
 import { configureStore } from "@reduxjs/toolkit";
-import  isLoaderSlice from "./slice/isloader.slice";
-import categoriesSlice from "./slice/categories.slice";
-import productsSlice from "./slice/products.slice";
-import buscarSlice from "./slice/buscar.slice"; 
-import offCanbasSlice from "./slice/offCanbas.slice";
-import cartdSlice from "./slice/cartd.slice";
-import viajeCompletadoSlice from "./slice/viajeCompletado.slice";
-import alertSlice from "./slice/alert.slice";
+import isLoaderSlice from "./slices/isloader.slice";
+import categoriesSlice from "./slices/categories.slice";
+import productsSlice from "./slices/products.slice";
+import buscarSlice from "./slices/buscar.slice"; 
+import offCanbasSlice from "./slices/offcanbas.slice";
+import cartdSlice from "./slices/cartd.slice";
+import viajeCompletadoSlice from "./slices/viajecompletado.slice";
+import alertSlice from "./slices/alert.slice";
 
 export default configureStore({
 

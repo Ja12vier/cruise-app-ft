@@ -4,13 +4,13 @@ import {useParams} from "react-router-dom"
 import axios from "axios"
 import {useEffect, useState  } from "react";
 import { useDispatch, useSelector } from "react-redux"
-import { setLoader } from "../store/slice/isloader.slice";
+import { setLoader } from "../store/slices/isloader.slice";
 import { FaCartPlus } from "react-icons/fa";
 import getConfig from "../utils/getConfig";
-import { postCartdproducThunk, getCartdproducThunk } from "../store/slice/cartd.slice";
+import { postCartdproducThunk, getCartdproducThunk } from "../store/slices/cartd.slice";
 import AlertShow from "../components/AlertShow";
 import AlertSlice from "../components/AlertSlice";
-import { setAlertSlice } from "../store/slice/alert.slice";
+import { setAlertSlice } from "../store/slices/alert.slice";
 
 
 const Detail=()=>{

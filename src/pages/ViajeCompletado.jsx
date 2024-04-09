@@ -1,13 +1,8 @@
 import { useDispatch, useSelector } from "react-redux"
-import { getProductsThunk } from "../store/slice/products.slice"
-import { useNavigate } from "react-router-dom"
-import axios from "axios"
-import getConfig from "../utils/getConfig"
-import { useEffect, useState } from "react"
-import { setLoader } from "../store/slice/isloader.slice"
+import { useEffect } from "react"
 import Card from 'react-bootstrap/Card';
-import { getViajeCompletadoThunk, deleteViajeCompletadoThunk } from "../store/slice/viajeCompletado.slice"
-import { getCartdproducThunk } from "../store/slice/cartd.slice"
+import { getViajeCompletadoThunk, deleteViajeCompletadoThunk } from "../store/slices/viajecompletado.slice"
+import { getCartdproducThunk } from "../store/slices/cartd.slice"
 
 
 const ViajeCompletado=()=>{
